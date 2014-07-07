@@ -186,6 +186,10 @@ img{
   background-image: none;
 }
 
+div{
+  max-width: 78%;
+}
+
 img{
   opacity: 1;
   display: block;
