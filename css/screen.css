@@ -71,7 +71,7 @@ header {
 .headline {
   position: relative;
   width: 70%;
-  margin: 5% 15%;
+  margin: 5% 15% 5% 15%;
   background-image: url("http://healthycancerchick.files.wordpress.com/2013/01/cancerkiller.jpg");
   height: 80%;
   background-height: cover;
@@ -110,14 +110,14 @@ header {
 }
 
 header div .pure-u-1-6 {
-  font-family: "Roboto" !important;
+  font-family: "Roboto";
   font-family: "Roboto";
   font-size: 24px;
   margin: 1% 2%;
 }
 
 header div .pure-u-1-3, h2 {
-  font-family: "Roboto" !important;
+  font-family: "Roboto";
   font-family: "Roboto";
   font-size: 28px;
   color: #ff2000;
@@ -133,6 +133,19 @@ a {
 .testimonials {
   position: absolute;
   text-align: center;
-  margin-left: 33.5%;
-  margin-right: 33.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.testimonials h2 {
+  font-family: "Oswald";
+}
+.testimonials div:nth-of-type(odd) {
+  font-family: "Lobster" !important;
+  font-size: 20px;
+  float: left;
+}
+.testimonials div:nth-of-type(even) {
+  font-family: "Lobster" !important;
+  font-size: 20px;
+  float: right;
 }
