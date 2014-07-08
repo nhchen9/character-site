@@ -1,0 +1,56 @@
+@import 'reset';
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background: blue;
+  z-index: 20;
+}
+ .headlinetext {
+      position: absolute;
+      top: 18%;
+      left: 8%;
+      color: orange;
+      background-color: #707070;
+      padding: 8px;
+      border-radius: 8px;
+      opacity: .8;
+  }
+
+@media screen and (min-width: 1000px)
+{
+    .title{
+      font-family: 'Roboto';
+      font-size: 32px;
+      font-weight: bold;
+      color: #ff2020;
+      margin: 8px;
+    }
+
+    .pure-u-1-6{
+      font-family: 'Roboto';
+      font-size: 24px;
+      margin-left: 2%;
+      margin-top: 1%;
+    }
+
+    a{
+        color: #ffaaaa;
+        text-decoration:none;
+
+    }
+
+
+
+  .headline{
+    position:absolute;
+    width: 100%;
+    top: 5%;
+    left: 25%; 
+    right: 12.5%;
+
+  }
+
+}
