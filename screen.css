@@ -16,7 +16,6 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -36,6 +35,8 @@ html{
 
 ol, ul {
   list-style: none;
+  float:right;
+  margin-right: 5%;
 }
 
 blockquote, q {
@@ -78,8 +79,47 @@ div{
 
 li{
   list-style: disc;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-bottom: 10%;
+
 }
+
+header{
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 50;
+  background-color: rgba( 31, 58, 92, .5 );
+  width: 100%;
+}
+
+
+a{
+  list-style: none;
+  display: inline-block;
+  color: #1020df;
+  font-size: 15px;
+  transition: all 500ms linear;
+  font-family: 'Ubuntu'
+
+}
+
+header span{
+  color: aqua;
+  font-size: 22px;
+  font-family: helvetica;
+  display: inline;
+  padding-top: 50px;
+  margin-left: 5%;
+}
+
+a:hover{
+  list-style: disc;
+  color: #ff1020;
+  font-size: 17px;
+  text-shadow: 2px 2px 3px red;
+}
+
 .text1:hover{
   border: 5px dashed red;
   font-family: 'Oswald';
@@ -134,13 +174,14 @@ div{
     border-radius: 8px;
     background-color: rgba( 0, 20, 0, .6);
     text-shadow: 2px 2px 4px rgba( 20, 20, 250, 1);
-    max-width: 60%;
+    width: 60%;
+    max-width: 280px;
     position: absolute;
     padding: 10px;
 }
 
 .text1{
-     top: 5%;
+     top: 16%;
     left: 10%;
 }
 
