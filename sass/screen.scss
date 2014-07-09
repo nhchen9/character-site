@@ -9,19 +9,21 @@ header{
   top: 0;
   width: 100%;
   left: 0;
-  background: blue;
+  background: $color3;
   z-index: 20;
 }
 
  .headline{
 
     position:relative;
-    width: 70%; 
-    margin: 5% 15% 5% 15%;
+    width: 90%; 
+    top: 5%;
+    left: 15%;
+    margin-bottom: 5%;
+    margin-left: 10%;
     background-image: url("http://healthycancerchick.files.wordpress.com/2013/01/cancerkiller.jpg");
-    height: 80%;
-    background-height:cover;
-    background-width:cover;
+    height: 90%;
+    background-size: 57%;
   }
  
  .headpic{
@@ -51,14 +53,14 @@ header{
          font-family: $font1 !important;
          font-size: 32px;
          font-weight: bold;
-         color: #ff2020;
+         color: lighten(#ff2020, 20%);
          margin: 8px;
        }
   }
 
   
     header div .pure-u-1-6{
-      font-family: $font1 ;
+      font-family: $font1;
       font-family: $font1;
       font-size: 24px;
       margin: 1% 2%;
@@ -88,18 +90,26 @@ header{
       h2{
         font-family: $font2;
       }
-
-      div:nth-of-type(odd){
-        font-family: $font3 !important;
-        font-size: 20px;
-        float: left;
+      .pure-u-1-2{
+        height: 125px;
+        padding: 10px;  
       }
 
-      div:nth-of-type(even){
-        font-family: $font3 !important;
-        font-size: 20px;
-        float: right;
-      }
+      div{
+        border: 2px solid grey;
+      
+       
+          &:nth-of-type(odd){
+            font-family: $font3 !important;
+            font-size: 20px;
+            float: left;
+             }
+          &:nth-of-type(even){
+            font-family: $font3 !important;
+            font-size: 20px;
+            float: right;
+             }
+           }
   }
 
 
